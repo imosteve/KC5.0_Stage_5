@@ -1,0 +1,22 @@
+[
+  {"id": 1, "name": "Laptop", "price": 2500.99},
+  {"id": 2, "name": "Smartphone", "price": 899.49},
+  {"id": 3, "name": "Keyboard", "price": 120.00},
+  {"id": 4, "name": "Monitor", "price": 450.25},
+  {"id": 5, "name": "Mouse", "price": 45.99},
+  {"id": 6, "name": "Printer", "price": 320.10},
+  {"id": 7, "name": "Tablet", "price": 699.00},
+  {"id": 8, "name": "Headphones", "price": 150.49},
+  {"id": 9, "name": "Webcam", "price": 89.75},
+  {"id": 10, "name": "External Hard Drive", "price": 210.99},
+  {"id": 11, "name": "USB Flash Drive", "price": 35.20},
+  {"id": 12, "name": "Router", "price": 110.00},
+  {"id": 13, "name": "Speakers", "price": 85.50},
+  {"id": 14, "name": "Graphics Card", "price": 1249.99},
+  {"id": 15, "name": "Motherboard", "price": 499.00},
+  {"id": 16, "name": "Power Supply", "price": 129.95},
+  {"id": 17, "name": "CPU", "price": 849.75},
+  {"id": 18, "name": "RAM (16GB)", "price": 160.25},
+  {"id": 19, "name": "SSD (1TB)", "price": 299.99},
+  {"id": 20, "name": "Laptop Stand", "price": 55.00}
+]
