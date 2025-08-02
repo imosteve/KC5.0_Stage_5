@@ -1,0 +1,253 @@
+[
+    {
+        "name": "Jane Doe",
+        "subject_scores": {
+            "Math": 90.0,
+            "English": 80.0,
+            "Physics": 85.0
+        },
+        "average": 85.0,
+        "grade": "A"
+    },
+    {
+        "name": "John Smith",
+        "subject_scores": {
+            "Math": 65.0,
+            "English": 70.0,
+            "Physics": 68.0,
+            "Chemistry": 72.0,
+            "Biology": 64.0,
+            "Geography": 75.0,
+            "History": 60.0,
+            "Economics": 69.0,
+            "Literature": 67.0,
+            "Civic": 71.0
+        },
+        "average": 68.1,
+        "grade": "B"
+    },
+    {
+        "name": "Emily Johnson",
+        "subject_scores": {
+            "Math": 95.0,
+            "English": 88.0,
+            "Physics": 92.0,
+            "Chemistry": 85.0,
+            "Biology": 94.0,
+            "ICT": 90.0,
+            "Literature": 86.0,
+            "Geography": 91.0,
+            "Civic": 89.0,
+            "History": 87.0
+        },
+        "average": 89.7,
+        "grade": "A"
+    },
+    {
+        "name": "Michael Lee",
+        "subject_scores": {
+            "Math": 55.0,
+            "English": 60.0,
+            "Physics": 52.0,
+            "Chemistry": 50.0
+        },
+        "average": 54.25,
+        "grade": "C"
+    },
+    {
+        "name": "Sarah Kim",
+        "subject_scores": {
+            "Math": 72.0,
+            "English": 78.0,
+            "Physics": 75.0,
+            "Chemistry": 80.0,
+            "Biology": 77.0
+        },
+        "average": 76.4,
+        "grade": "A"
+    },
+    {
+        "name": "Daniel Okoro",
+        "subject_scores": {
+            "Math": 45.0,
+            "English": 42.0,
+            "Biology": 49.0,
+            "Chemistry": 47.0
+        },
+        "average": 45.75,
+        "grade": "D"
+    },
+    {
+        "name": "Chinyere Uzo",
+        "subject_scores": {
+            "Math": 89.0,
+            "English": 93.0,
+            "Literature": 91.0,
+            "Civic": 94.0,
+            "Government": 90.0
+        },
+        "average": 91.4,
+        "grade": "A"
+    },
+    {
+        "name": "Alex Musa",
+        "subject_scores": {
+            "Math": 58.0,
+            "English": 61.0,
+            "Physics": 55.0,
+            "Chemistry": 59.0
+        },
+        "average": 58.25,
+        "grade": "C"
+    },
+    {
+        "name": "Blessing Ade",
+        "subject_scores": {
+            "Math": 62.0,
+            "English": 67.0,
+            "Physics": 64.0,
+            "Economics": 70.0,
+            "Commerce": 66.0,
+            "Civic": 63.0
+        },
+        "average": 65.33,
+        "grade": "B"
+    },
+    {
+        "name": "Favour David",
+        "subject_scores": {
+            "Math": 48.0,
+            "English": 52.0,
+            "Biology": 46.0,
+            "Agriculture": 51.0,
+            "Chemistry": 49.0
+        },
+        "average": 49.2,
+        "grade": "C"
+    },
+    {
+        "name": "Tolu Salami",
+        "subject_scores": {
+            "Math": 76.0,
+            "English": 78.0,
+            "Government": 80.0,
+            "History": 79.0,
+            "Civic": 77.0
+        },
+        "average": 78.0,
+        "grade": "A"
+    },
+    {
+        "name": "Ngozi Nnamdi",
+        "subject_scores": {
+            "Math": 33.0,
+            "English": 38.0,
+            "Physics": 35.0,
+            "Chemistry": 40.0
+        },
+        "average": 36.5,
+        "grade": "F"
+    },
+    {
+        "name": "Samuel Obasi",
+        "subject_scores": {
+            "Math": 85.0,
+            "English": 83.0,
+            "Physics": 80.0,
+            "Chemistry": 82.0,
+            "Biology": 88.0,
+            "ICT": 84.0
+        },
+        "average": 83.67,
+        "grade": "A"
+    },
+    {
+        "name": "Precious James",
+        "subject_scores": {
+            "Math": 66.0,
+            "English": 70.0,
+            "Civic": 63.0,
+            "Biology": 68.0,
+            "Chemistry": 65.0
+        },
+        "average": 66.4,
+        "grade": "B"
+    },
+    {
+        "name": "Joseph Ekanem",
+        "subject_scores": {
+            "Math": 59.0,
+            "English": 61.0,
+            "History": 57.0,
+            "Literature": 60.0
+        },
+        "average": 59.25,
+        "grade": "C"
+    },
+    {
+        "name": "Zainab Bello",
+        "subject_scores": {
+            "Math": 72.0,
+            "English": 75.0,
+            "Chemistry": 70.0,
+            "Physics": 74.0,
+            "Economics": 76.0
+        },
+        "average": 73.4,
+        "grade": "A"
+    },
+    {
+        "name": "Kelechi Nduka",
+        "subject_scores": {
+            "Math": 43.0,
+            "English": 41.0,
+            "Biology": 40.0,
+            "Civic": 44.0
+        },
+        "average": 42.0,
+        "grade": "E"
+    },
+    {
+        "name": "Ibrahim Yusuf",
+        "subject_scores": {
+            "Math": 68.0,
+            "English": 70.0,
+            "Economics": 65.0,
+            "Commerce": 62.0,
+            "Civic": 69.0,
+            "Geography": 71.0,
+            "Government": 67.0
+        },
+        "average": 67.43,
+        "grade": "B"
+    },
+    {
+        "name": "Grace Umeh",
+        "subject_scores": {
+            "Math": 98.0,
+            "English": 96.0,
+            "Physics": 99.0,
+            "Chemistry": 97.0,
+            "Biology": 95.0,
+            "ICT": 100.0,
+            "Literature": 92.0,
+            "Geography": 94.0,
+            "History": 93.0,
+            "Civic": 91.0
+        },
+        "average": 95.5,
+        "grade": "A"
+    },
+    {
+        "name": "Henry Okafor",
+        "subject_scores": {
+            "Math": 40.0,
+            "English": 38.0,
+            "Physics": 45.0,
+            "Chemistry": 42.0,
+            "Biology": 41.0
+        },
+        "average": 41.2,
+        "grade": "E"
+    }
+]
