@@ -10,7 +10,6 @@ class Contact(BaseModel):
     phone: str
     email: EmailStr
 
-
 @app.post("/contacts/")
 def create_contact(contact: Contact):
     try:
@@ -27,7 +26,6 @@ def create_contact(contact: Contact):
             "data": None
         }
 
-
 @app.get("/contacts/")
 def read_contact(name: str = Query(..., description="Name of the contact")):
     try:
@@ -43,7 +41,6 @@ def read_contact(name: str = Query(..., description="Name of the contact")):
             "status": False,
             "data": None
         }
-
 
 @app.post("/contacts/{name}")
 def update_phone(
@@ -63,7 +60,6 @@ def update_phone(
             "status": False,
             "data": None
         }
-
 
 @app.post("/contacts/{name}/email")
 def update_email(
