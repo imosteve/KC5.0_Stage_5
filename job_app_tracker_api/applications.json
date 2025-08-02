@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Clara Benson",
+        "company": "Meta",
+        "position": "Frontend Developer",
+        "status": "pending"
+    },
+    {
+        "name": "David Lee",
+        "company": "Netflix",
+        "position": "Backend Engineer",
+        "status": "interviewed"
+    },
+    {
+        "name": "Evelyn Wright",
+        "company": "Spotify",
+        "position": "UX Designer",
+        "status": "offered"
+    },
+    {
+        "name": "Frank Murphy",
+        "company": "Tesla",
+        "position": "Data Analyst",
+        "status": "rejected"
+    },
+    {
+        "name": "Grace Kim",
+        "company": "Apple",
+        "position": "Product Manager",
+        "status": "pending"
+    },
+    {
+        "name": "Henry Carter",
+        "company": "IBM",
+        "position": "Cloud Engineer",
+        "status": "interviewed"
+    },
+    {
+        "name": "Isabella Moore",
+        "company": "Intel",
+        "position": "Firmware Engineer",
+        "status": "pending"
+    },
+    {
+        "name": "Jack Turner",
+        "company": "Oracle",
+        "position": "Database Administrator",
+        "status": "offered"
+    },
+    {
+        "name": "Kylie Ross",
+        "company": "Adobe",
+        "position": "Graphic Designer",
+        "status": "interviewed"
+    },
+    {
+        "name": "Liam Brooks",
+        "company": "Salesforce",
+        "position": "CRM Specialist",
+        "status": "pending"
+    },
+    {
+        "name": "Mia Scott",
+        "company": "Twitter",
+        "position": "Software Tester",
+        "status": "rejected"
+    },
+    {
+        "name": "Nathan Gray",
+        "company": "LinkedIn",
+        "position": "Business Analyst",
+        "status": "offered"
+    },
+    {
+        "name": "Olivia Reed",
+        "company": "Shopify",
+        "position": "Full Stack Developer",
+        "status": "pending"
+    },
+    {
+        "name": "Peter Adams",
+        "company": "Slack",
+        "position": "DevOps Engineer",
+        "status": "interviewed"
+    },
+    {
+        "name": "Quinn Bailey",
+        "company": "Zoom",
+        "position": "QA Engineer",
+        "status": "offered"
+    },
+    {
+        "name": "Rachel Foster",
+        "company": "Dropbox",
+        "position": "Technical Writer",
+        "status": "pending"
+    },
+    {
+        "name": "Samuel Green",
+        "company": "Snap Inc",
+        "position": "Mobile Developer",
+        "status": "rejected"
+    },
+    {
+        "name": "Tina Hall",
+        "company": "Airbnb",
+        "position": "Project Manager",
+        "status": "interviewed"
+    },
+    {
+        "name": "Umar Bell",
+        "company": "GitHub",
+        "position": "Site Reliability Engineer",
+        "status": "pending"
+    },
+    {
+        "name": "Vanessa Clark",
+        "company": "ZoomInfo",
+        "position": "Data Scientist",
+        "status": "offered"
+    },
+    {
+        "name": "Alice Johnson",
+        "company": "Google",
+        "position": "Software Engineer",
+        "status": "pending"
+    },
+    {
+        "name": "Imo Akang",
+        "company": "Kode Hauz",
+        "position": "Backend Developer",
+        "status": "offered"
+    }
+]

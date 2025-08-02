@@ -1,14 +1,8 @@
 from fastapi import FastAPI, Query
 from pydantic import BaseModel
-from .file_handler import add_application, list_applications, search_by_status
+from .file_handler import JobApplication,add_application, list_applications, search_by_status
 
 app = FastAPI()
-
-class JobApplication(BaseModel):
-    name: str
-    company: str
-    position: str
-    status: str
 
 @app.post('/applications/')
 def create_application(application: JobApplication):
@@ -30,11 +24,18 @@ def create_application(application: JobApplication):
 def get_applications():
     try:
         applications = list_applications()
-        return {
-            "message": "Applications fetched successfully",
-            "status": True,
-            "data": applications
-        }
+        if not applications:
+            return {
+                "message": "No application added",
+                "status": False,
+                "data": None
+            }
+        else:
+            return {
+                "message": "Applications fetched successfully",
+                "status": True,
+                "data": applications
+            }
     except Exception as e:
         return {
             "message": str(e),
@@ -46,11 +47,18 @@ def get_applications():
 def search_applications(status: str = Query(..., description="Filter applications by status")):
     try:
         results = search_by_status(status)
-        return {
-            "message": "Applications filtered successfully",
-            "status": True,
-            "data": results
-        }
+        if not results:
+            return {
+                "message": "Application not found",
+                "status": False,
+                "data": None
+            }
+        else:
+            return {
+                "message": "Applications filtered successfully",
+                "status": True,
+                "data": results
+            }
     except Exception as e:
         return {
             "message": str(e),

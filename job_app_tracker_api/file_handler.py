@@ -1,9 +1,15 @@
 import json
 import os
 from typing import List
-from .main import JobApplication
+from pydantic import BaseModel
 
 FILE_PATH = "job_app_tracker_api/applications.json"
+
+class JobApplication(BaseModel):
+    name: str
+    company: str
+    position: str
+    status: str
 
 def load_applications() -> List[dict]:
     if not os.path.exists(FILE_PATH):
