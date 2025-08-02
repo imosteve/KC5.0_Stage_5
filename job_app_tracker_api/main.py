@@ -1,5 +1,4 @@
 from fastapi import FastAPI, Query
-from pydantic import BaseModel
 from .file_handler import JobApplication,add_application, list_applications, search_by_status
 
 app = FastAPI()
