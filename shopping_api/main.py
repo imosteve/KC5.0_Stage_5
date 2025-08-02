@@ -1,5 +1,5 @@
-from fastapi import FastAPI
-from .cart import load_products, add_to_cart
+from fastapi import FastAPI, Query
+from .cart import load_products, add_to_cart, checkout, save_cart
 
 app = FastAPI()
 
@@ -14,7 +14,10 @@ def list_products():
     }
 
 @app.post('/cart/add')
-def add_item_to_cart(product_id: int, qty: int):
+def add_item_to_cart(
+    product_id: int = Query(..., description="ID of the product"),
+    qty: int = Query(..., gt=0, description="Quantity to add")
+):
     try:
         order = add_to_cart(product_id, qty)
         return {
@@ -30,5 +33,18 @@ def add_item_to_cart(product_id: int, qty: int):
         }
 
 @app.get('/cart/checkout')
-def list_products():
-    return {"message": "cart checked out successfully"}
+def checkout_cart():
+    try:
+        order = checkout()
+        save_cart([])
+        return {
+            "message": "checkout successful",
+            "status": True,
+            "data": order
+        }
+    except Exception as e:
+        return {
+        "message": str(e),
+        "status": False,
+        "data": None
+        }
