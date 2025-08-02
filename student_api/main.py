@@ -1,26 +1,12 @@
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
-from typing import Dict, List, Union
+from fastapi import FastAPI
+from typing import Dict, List
+from student_api.schemas import Student, ResponseModel
 import json
 import os
 
 app = FastAPI()
 
 DATA_FILE = "student_api/students.json"
-# DATA_FILE = "students.json"
-
-class Student(BaseModel):
-    name: str
-    subject_scores: Dict[str, float]
-    average: float = 0.0
-    grade: str = ""
-
-
-class ResponseModel(BaseModel):
-    message: str
-    status: bool
-    data: Union[Student, List[Student], None]
-
 
 def calculate_average(scores: Dict[str, float]) -> float:
     return sum(scores.values()) / len(scores)
