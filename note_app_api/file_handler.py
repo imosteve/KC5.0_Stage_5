@@ -1,6 +1,6 @@
 import os
 
-NOTES_DIR = "notes"
+NOTES_DIR = "note_app_api/notes"
 
 if not os.path.exists(NOTES_DIR):
     os.makedirs(NOTES_DIR)
